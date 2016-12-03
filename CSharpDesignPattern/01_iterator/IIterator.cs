@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpDesignPattern
+namespace CSharpDesignPattern._01_iterator
 {
-    public class Class1
+    interface IIterator
     {
+        bool HasNext();
+        Object Next();
     }
 }
