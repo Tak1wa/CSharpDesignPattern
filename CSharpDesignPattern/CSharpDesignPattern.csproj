@@ -46,10 +46,15 @@
     <Compile Include="01_iterator\MyStudentList.cs" />
     <Compile Include="01_iterator\Student.cs" />
     <Compile Include="01_iterator\StudentList.cs" />
+    <Compile Include="10_strategy\Context.cs" />
+    <Compile Include="10_strategy\IStrategy.cs" />
+    <Compile Include="10_strategy\StrategyA.cs" />
+    <Compile Include="10_strategy\StrategyB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="01_iterator\Diagram_Iterator.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
