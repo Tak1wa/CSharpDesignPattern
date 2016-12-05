@@ -50,6 +50,10 @@
     <Compile Include="10_strategy\IStrategy.cs" />
     <Compile Include="10_strategy\StrategyA.cs" />
     <Compile Include="10_strategy\StrategyB.cs" />
+    <Compile Include="15_Facade\BookList.cs" />
+    <Compile Include="15_Facade\LendingList.cs" />
+    <Compile Include="15_Facade\Librarian.cs" />
+    <Compile Include="15_Facade\Visitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
