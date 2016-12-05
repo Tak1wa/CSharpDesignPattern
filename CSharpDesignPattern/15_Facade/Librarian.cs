@@ -12,8 +12,22 @@ namespace CSharpDesignPattern._15_Facade
         {
             BookList bookList = new BookList();
             string location = bookList.SearchBook(bookName);
-
-            return location;
+            if(location != null)
+            {
+                LendingList lendingList = new LendingList();
+                if(lendingList.Check(bookName))
+                {
+                    return "貸出中です";
+                }
+                else
+                {
+                    return location;
+                }
+            }
+            else
+            {
+                return "その本は所蔵していません";
+            }
         }
     }
 }
